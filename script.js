@@ -25,3 +25,25 @@ function menuShow(){
         document.querySelector('.icon').src = "img/close_white.png";
     }
 }
+
+function entrar(event) { 
+  
+    const login = document.getElementById("login").value;
+    const senha = document.getElementById("senha").value;
+  
+    if (login === "1234" && senha === "1234") {
+      alert("Logado com sucesso");
+      window.location.href = '../index.html';
+    } else {
+      alert("Usuário ou senha inválidos");
+    }
+  }
+  
+
+function voltar(){
+    window.location.href = '../index.html'
+}
+
+function email(){
+    alert("successfully registered");
+}
