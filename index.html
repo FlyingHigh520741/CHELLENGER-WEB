@@ -1,20 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formula E</title>
     <link rel="stylesheet" href="style.css">
-    <script src=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
 </head>
+<header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <a href="index.html" class="nav-link"><img src="img/logo.png" alt="logo mahindra"></a>
+        </div>
+
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Tecnologia</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Corridas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Ingressos</a></li>
+            </ul>
+        </div>
+
+        <div class="login-button">
+            <button><a href="login.html">Entrar</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="img/menu_white.png" alt=""></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Tecnologia</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Corridas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Ingressos</a></li>
+
+        </ul>
+        <div class="login-button">
+            <button><a href="login.html">Entrar</a></button>
+        </div>
+    </div>
+</header>
+
 <body>
     <div class="carrossel">
         <div class="container" id="img">
-            <img src="img/image.png" alt="imagem 1">
-            <img src="img/image copy 2.png.png" alt="imagem 2">
-            <img src="img/image copy 3.png.png" alt="imagem 3">
-            <img src="img/image copy.png.png" alt="imagem 4">
+            <img src="img/image.png" alt="carro 1">
+            <img src="img/image copy 2.png" alt="carro 2">
+            <img src="img/image copy 3.png" alt="carro 3">
+            <img src="img/image copy.png" alt="carro 4">
         </div>
     </div>
 </body>
+
+<footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <div class="logo">
+                <a href="index.html" class="nav-link"><img src="img/logo.png" alt="logo mahindra"></a>
+            </div>
+            <p>it's all about the ocean.</p>
+
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Blog</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Tech</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Adventures</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Music</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Products</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">App</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Desktop</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Cloud</a>
+            </li>
+        </ul>
+        <div id="footer_subscribe">
+            <h2>Subscribe</h2>
+            <p>
+                Enter your e-mail to get notified about
+                our news solutions
+            </p>
+            <div id="input_group">
+                <input type="email" id="email">
+                <button>
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer_copyright">
+        &#169
+        2024 all right reserve
+    </div>
+</footer>
+
 </html>
