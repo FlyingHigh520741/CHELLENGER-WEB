@@ -25,3 +25,8 @@ Este projeto é um site básico para fãs da Fórmula E, o campeonato de corrida
 1. **Clone the Repository:**
    ```bash
    git clone https://your-repository-url.git
+# Equipe
+- Bento Rangel - RM559124 
+- Daniel Vieira - RM556275
+- Thamiris Almeida - RM559155
+- Werbeth Nunes - RM559067
